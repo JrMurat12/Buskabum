@@ -1,0 +1,191 @@
+/* Gerais */
+
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+.row{
+    margin: 0;
+}
+
+.container {
+    padding: 700px 0;
+}
+
+p, li {
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+.hr{
+    color: #003c54;
+}
+
+/* Barra de navegação */
+
+header, .navbar {
+    background-color: white;
+}
+
+#nav-container {
+    font-family: 'Staatliches';
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#fontlogo{
+    font-family: 'Piedra';
+}
+
+#logo{
+    width: 75px;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: #003c54;
+}
+
+.navbar-brand:hover{
+    color: #003c54;
+}
+
+#navbar-links a{
+    color: #003c54;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+/* Slider */
+
+.container-fluid{
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item{
+    height: 90vh;
+}
+
+#mainSlider .carousel-caption{
+    top: 30%;
+    color:  #cfed01;
+}
+
+#mainSlider .carousel-caption h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #cfed01;
+}
+
+.main-btn {
+    background-color:#003c54;
+    color:#cfed01;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+.main-btn:hover{
+    text-decoration: none;
+    color: #cfed01;
+    background-color: transparent;
+    border-color: #003c54;
+}
+
+/* Lançamentos */
+
+#lancamentos{
+    background-color: white;
+}
+
+#linklanc{
+    color: #cfed01;
+}
+
+.main-title{
+    color: #cfed01;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after{
+    content: "";
+    border-top: 2px solid #cfed01;
+    width: 20%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.about-title{
+    font-size: 17px;
+    color:  #cfed01;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#iphone-modelos{
+    list-style: none;
+    padding-left: 30px;
+}
+
+#iphone-modelos li{
+    line-height: 30px;
+    color:  #003c54;
+}
+
+#iphone-modelos i{
+    color:  #cfed01;
+    margin-right: 15px;
+}
+
+#paragrafos{
+    color:  #003c54;
+}
+
+/* Contatos */
+
+.service-box{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box img, .service-box h4{
+    transition: .5s;
+}
+
+.service-box img{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #003c54;
+}
+
+.service-box h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover > img, .service-box > h4, .service-box > p{
+    color: #cfed01;
+
+}
+
+#service-area{
+    background-color:  #003c54;
+}
+
+
+
